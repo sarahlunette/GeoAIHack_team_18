@@ -5,12 +5,20 @@ We are answering the GeoAI Hack challenge at ADP on locust breeding ground segme
 Sarah made this code, using chatgpt, either for colab or kaggle with a DeepLabV3 (evi and ndvi addition in features), the remote sensing image is 6 bands: Blue, green, red, nir, swir1, swir2. Runs in about 200 minutes on kaggle with 1 GPU (not using 2nd though available).
 
 ## Competition submission
-Kenzo has used a prithvi model (base model from instageo package) in order to make the diverse results with changing batch, epoch and learning_rate and adding bands, ndwi and ndvi. The model is a VIT that uses 3 timestamps for each area with 30 days lag.
+Kenzo has used a prithvi model (base model from instageo package, with cloud masking possible) in order to make the diverse results with changing batch, epoch and learning_rate and adding bands, ndwi and ndvi. The model is a VIT that uses 3 timestamps for each area with 30 days lag.
 Stan added new bands to get locust colour areas in order to get the possible breading grounds.
 The metric used is AUC.
 
-## Bibliography
-https://custom-scripts.sentinel-hub.com/custom-scripts/
+## Bibliography and interesting links
+<li>https://custom-scripts.sentinel-hub.com/custom-scripts/</li>
+<li>https://european-flood.emergency.copernicus.eu/en</li>
+<li>https://medium.com/sentinel-hub/environmental-monitoring-of-conflicts-using-sentinel-2-61f07d76e27b</li>
+<li>https://medium.com/sentinel-hub/mapping-deforestation-from-sentinel-hub-de6aae67f817</li>
+<li>https://towardsdatascience.com/vision-transformers-explained-a9d07147e4c8/</li>
+<li>https://medium.com/sentinel-hub/the-use-of-satellite-imagery-in-crisis-management-after-flooding-382be517224f</li>
+
+## Data
+tif with mask 0 or 1, 3 frames of 30 days lags and several years data 256 by 256 with blue, green, red, nir, swir1, swir2 bands, possible to change chip sizes by aggregation
 
 ## Streamlit App
 Julian has made the streamlit app with the template provided by InstaDeep competition and modified it to get filter drop downs.
