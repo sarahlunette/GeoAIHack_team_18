@@ -9,6 +9,9 @@ Kenzo has used a prithvi model (base model from instageo package) in order to ma
 Stan added new bands to get locust colour areas in order to get the possible breading grounds.
 The metric used is AUC.
 
+## Bibliography
+<a>https://custom-scripts.sentinel-hub.com/custom-scripts/</a>
+
 ## Streamlit App
 Julian has made the streamlit app with the template provided by InstaDeep competition and modified it to get filter drop downs.
 
