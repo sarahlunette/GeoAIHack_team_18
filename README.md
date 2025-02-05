@@ -9,13 +9,11 @@ Kenzo has used a prithvi model (base model from instageo package) in order to ma
 Stan added new bands to get locust colour areas in order to get the possible breading grounds.
 The metric used is AUC.
 
+## Bibliography
+https://custom-scripts.sentinel-hub.com/custom-scripts/
+
 ## Streamlit App
 Julian has made the streamlit app with the template provided by InstaDeep competition and modified it to get filter drop downs.
-
-<picture>
-  <source srcset="assets/logo-dark.png" media="(prefers-color-scheme: dark)">
-  <img src="assets/logo.png" alt="Logo">
-</picture>
 
 InstaGeo is geospatial deep learning Python package designed to facilitate geospatial machine learning using satellite imagery data from [Harmonized Landsat and Sentinel-2 (HLS)](https://hls.gsfc.nasa.gov/) Data Product and [Prithvi](https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M) geospatial foundational model. It consists of three core components: Data, Model, and Apps, each tailored to support various aspects of geospatial data retrieval, manipulation, preprocessing, model training, and inference serving.
 
