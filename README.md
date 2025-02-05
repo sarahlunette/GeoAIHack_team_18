@@ -10,7 +10,7 @@ Stan added new bands to get locust colour areas in order to get the possible bre
 The metric used is AUC.
 
 ## Bibliography
-<a>https://custom-scripts.sentinel-hub.com/custom-scripts/</a>
+https://custom-scripts.sentinel-hub.com/custom-scripts/
 
 ## Streamlit App
 Julian has made the streamlit app with the template provided by InstaDeep competition and modified it to get filter drop downs.
